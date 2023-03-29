@@ -4,6 +4,6 @@ function getRandomInt(min: number, max: number) {
   return Math.floor(Math.random() * (newMax - newMin)) + newMin;
 }
 
-// push!
+// push!!
 
 export default getRandomInt;
