@@ -7,12 +7,12 @@ import getRandomInt from './utils';
 export default class Character implements Fighter {
   private _race: Race;
   private _archetype: Archetype;
-  private maxLifePoints: number;
-  private _lifePoints: number;
   private _strength: number;
   private _defense: number;
   private _dexterity: number;
   private _energy: Energy;
+  private maxLifePoints: number;
+  private _lifePoints: number;
 
   constructor(name: string) {
     this._strength = getRandomInt(1, 10);
