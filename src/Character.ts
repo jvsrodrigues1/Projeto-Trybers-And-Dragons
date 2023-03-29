@@ -103,5 +103,6 @@ export default class Character implements Fighter {
     }
 
     this._lifePoints = this._maxLifePoints;
-  } */
+    correcao da mentoria xD
+  } */ 
 }
